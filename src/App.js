@@ -5,15 +5,11 @@ import {Route, Routes} from 'react-router-dom'
 
 import HomePage from './pages/Home/HomePage';
 import Navbar from './components/shared/Navbar';
+import PlaceholderPage from './pages/Placeholder/PlaceholderPage'
 
 
 function App() {
-  // return (
-  //   <Fragment>
-      
-  //     <HomePage />
-  //   </Fragment>
-  // )
+
   return (
     <Fragment>
       <Navbar /> 
@@ -22,28 +18,14 @@ function App() {
           path='/'
           element={<HomePage />}
         />
+        <Route 
+          path='/donate'
+          element={<PlaceholderPage pageName='Donate' />}
+        />
       
       </Routes>
     </Fragment>
   )
-  // return (
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
 }
 
 export default App;
