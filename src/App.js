@@ -3,26 +3,29 @@ import './App.css';
 import React, { Fragment } from 'react'
 import {Route, Routes} from 'react-router-dom'
 
-import HomePage from './components/home/homePage';
-import Navbar from './components/shared/navbar';
+import HomePage from './pages/Home/HomePage';
+import Navbar from './components/shared/Navbar';
+
 
 function App() {
-  return (
-    <Fragment>
-      <Navbar />
-      <HomePage />
-    </Fragment>
-  )
   // return (
   //   <Fragment>
-  //     <Routes>
-  //       <Route
-  //         path='/'
-  //         element={<homePage/>}
-  //       />
-  //     </Routes>
+      
+  //     <HomePage />
   //   </Fragment>
   // )
+  return (
+    <Fragment>
+      <Navbar /> 
+      <Routes>
+        <Route
+          path='/'
+          element={<HomePage />}
+        />
+      
+      </Routes>
+    </Fragment>
+  )
   // return (
   //   <div className="App">
   //     <header className="App-header">
