@@ -18,7 +18,14 @@ nav {
     position: relative;
     z-index: 1;
     margin-bottom: 80px;
+    @media (max-width: 768px) {
+        padding: 2px; /* Adjust the padding as needed */
+        flex-direction: column; /* Change to column layout */
+        align-items: center;
+        text-align: center;
+    
   }
+}
   
   .logo {
     margin-right: 10px;
@@ -27,6 +34,15 @@ nav {
     left: 5px;
     width: 98px;
     height: 112px;
+    @media (max-width: 768px) {
+        width: 60px; /* Adjust the width as needed */
+        height: 68px; /* Adjust the height as needed */
+        position: static;
+        margin: 10px;
+        position: absolute;
+        top: 8px;
+        left: 5px;
+      }
 
   }
   
@@ -34,6 +50,11 @@ nav {
     margin-left: 110px; /* Adjust the margin to prevent overlap */
     width: 267px;
     height: 24px;
+    @media (max-width: 768px) {
+        width: 150px; /* Adjust the width as needed */
+        height: 18px; /* Adjust the height as needed */
+        margin-left: 0;
+      }
   }
   
   .donate {
@@ -42,6 +63,11 @@ nav {
     position: absolute;
     right: 5px;
     top: 0px;
+    @media (max-width: 768px) {
+        display: none;
+        width: 0px; /* Adjust the width as needed */
+        height: 0px; /* Adjust the height as needed */
+      }
   }
 
   .nav-list {
@@ -99,7 +125,7 @@ nav {
     }
   
     .nav-link {
-      padding: 10px;
+      padding: 0px;
       width: 100%;
     }
   
@@ -111,6 +137,6 @@ nav {
     .fnb,
     .donate {
       position: static;
-      margin: 10px; /* Adjust margins as needed */
+      margin: 8px; /* Adjust margins as needed */
     }
   }
