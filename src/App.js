@@ -6,21 +6,32 @@ import {Route, Routes} from 'react-router-dom'
 import HomePage from './pages/Home/HomePage';
 import Navbar from './components/shared/Navbar';
 import PlaceholderPage from './pages/Placeholder/PlaceholderPage'
-import Tagline from './components/tagline/Tagline';
-import Resources from './components/resources/Resources';
+import About from './pages/About/About';
+import Location from './pages/Location/Location';
+
 
 
 function App() {
 
   return (
     <Fragment>
-      <Tagline />
-      <Resources/>
       <Navbar /> 
       <Routes>
         <Route
           path='/'
           element={<HomePage />}
+        />
+        <Route
+          path='/about'
+          element={<About/>}
+        />
+        <Route
+          path='/location'
+          element={<Location/>}
+        />
+         <Route
+          path='/resources'
+          element={<Resources/>}
         />
         <Route 
           path='/donate'
