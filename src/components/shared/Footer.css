@@ -1,0 +1,295 @@
+/* header */
+
+position: absolute;
+width: 1512px;
+height: 128px;
+left: 0px;
+top: 82px;
+
+
+
+/* top nav */
+
+position: absolute;
+width: 1512px;
+height: 60px;
+left: 0px;
+top: 4px;
+
+
+
+/* List → Item → Link */
+
+position: absolute;
+height: 60px;
+left: 0px;
+right: 0px;
+top: 4px;
+
+/* Fill Black */
+background: #222222;
+
+
+/* FOOD NOT BOMBS */
+
+position: absolute;
+width: 267px;
+height: 24px;
+left: 115px;
+top: 18px;
+
+font-family: 'ADELIA';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* Anarchy Yellow */
+color: #FFD600;
+
+
+
+/* Home */
+
+position: absolute;
+width: 49px;
+height: 24px;
+left: 429px;
+top: 18px;
+
+/* nav selected */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* Anarchy Yellow */
+color: #FFD600;
+
+
+
+/* ABOUT */
+
+position: absolute;
+width: 56px;
+height: 24px;
+left: 542px;
+top: 18px;
+
+/* nav unselected */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #999999;
+
+
+
+/* LOCATIONS */
+
+position: absolute;
+width: 92px;
+height: 24px;
+left: 662px;
+top: 18px;
+
+/* nav unselected */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #999999;
+
+
+
+/* RESOURCES */
+
+position: absolute;
+width: 102px;
+height: 24px;
+left: 818px;
+top: 18px;
+
+/* nav unselected */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #999999;
+
+
+
+/* Volunteer */
+
+position: absolute;
+width: 98px;
+height: 24px;
+left: 984px;
+top: 18px;
+
+/* nav unselected */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #999999;
+
+
+
+/* donate button */
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 1384px;
+top: 0px;
+
+
+
+/* openmoji:sun-with-face */
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 1384px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 5.56%;
+right: 5.56%;
+top: 6%;
+bottom: 6%;
+
+/* Anarchy Yellow */
+background: #FFD600;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.56%;
+right: 5.56%;
+top: 6%;
+bottom: 6%;
+
+/* Stroke Black */
+border: 2px solid #090A0C;
+
+
+/* dOnate */
+
+position: absolute;
+left: 12.73%;
+right: 1.16%;
+top: 22.35%;
+bottom: 44.31%;
+
+/* nav selected */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+/* Stroke Black */
+color: #090A0C;
+
+transform: rotate(13.93deg);
+
+
+/* logo */
+
+position: absolute;
+width: 98px;
+height: 112px;
+left: 5px;
+top: 8px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 94.64px;
+height: 95.59px;
+left: 5px;
+top: 24.41px;
+
+/* Bright White */
+background: #FFFFFF;
+
+
+/* Vector 4 */
+
+position: absolute;
+width: 46.6px;
+height: 45.62px;
+left: 55.44px;
+top: 8px;
+
+/* Bright White */
+background: #FFFFFF;
+/* Bright White */
+border: 1px solid #FFFFFF;
+border-radius: 3px;
+
+
+/* fnb logo recolor 1 */
+
+position: absolute;
+width: 98px;
+height: 108.05px;
+left: 5px;
+top: 10px;
+
+background: url(fnb logo recolor.png);
