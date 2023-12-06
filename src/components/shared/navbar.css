@@ -1,0 +1,64 @@
+nav {
+  background-color: #222222;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 1512px;
+  height: 60px;
+
+}
+
+.logo {
+    margin-right: 10px; 
+    position: absolute; 
+    top: 8px;
+    left: 5px;
+    width: 98px; 
+    height: 112px; 
+
+}
+
+.fnb {
+    display: flex;
+    position: absolute;
+    width: 267px;
+    height: 24px;
+    left: 115px;
+    top: 18px; 
+
+}
+
+.donate {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 1384px;
+    top: 0px;
+
+}
+
+/* .nav img {
+  margin-right: 15px; /* Adjust the margin as needed */
+/* } */ */
+
+.nav-link {
+  color: #FFD600; /* Make sure to use a valid color code */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
