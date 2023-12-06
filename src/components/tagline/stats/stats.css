@@ -1,0 +1,23 @@
+.statsMainContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    margin: 4vh 16vw 0vh 16vw
+}
+
+.yellowBorder{
+    border-right: 3.5px solid  #FFD600;
+    height:10vh;
+    color:white;
+    margin-top: 5vh;
+
+}
+
+.fontSize{
+    font-size: 2.2vh;
+    padding:0 2vw 02vw;
+    height:60%;
+    text-align: center;
+    
+}
