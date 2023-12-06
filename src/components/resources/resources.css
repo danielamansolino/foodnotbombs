@@ -47,7 +47,7 @@
     color: var(--Stroke-Black, #090A0C);
     /* h4 */
     font-family: Exo 2;
-    font-size: 1.25vw;
+    font-size: 1.3vw;
     font-style: normal;
     font-weight: 300;
     line-height: 3.5vh;
@@ -63,4 +63,16 @@
     justify-content: center;
     flex-shrink: 0;
     margin-top:3vh;
+}
+
+.resourcesHeader{
+    color: var(--Stroke-Black, #090A0C);
+    /* h2 */
+    margin-left:5vw;
+    margin-bottom:0;
+    font-family: Exo 2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.125%; /* 63.9px */ 
 }

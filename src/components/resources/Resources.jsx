@@ -3,6 +3,8 @@ import './resources.css'
 
 function Resources() {
   return (
+<div>
+    <h2 className='resourcesHeader'>Resources</h2>
     <div className='resourcesContainer'>
         <div className='resourceBox'>
             <div className='imgContainer'>
@@ -36,6 +38,7 @@ function Resources() {
             <div className='descriptionCon'><h4 className='description'>Essential reading for a world free of rulers, repression, and corporate domination.  </h4></div>
         </div>
     </div>
+</div>    
   )
 }
 
