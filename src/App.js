@@ -8,7 +8,8 @@ import Navbar from './components/shared/Navbar';
 import PlaceholderPage from './pages/Placeholder/PlaceholderPage'
 import About from './pages/About/About';
 import Location from './pages/Location/Location';
-
+import Resources from './pages/Resources/Resources';
+import Footer from './components/shared/Footer'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         />
       
       </Routes>
+      <Footer /> 
     </Fragment>
   )
 }

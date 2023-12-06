@@ -53,11 +53,12 @@ import './Navbar.css';
 function NavBar(props) {
   const location = useLocation();
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+  const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const shouldFixNavbar = scrollPosition > 50; 
+      const shouldFixNavbar = scrollPosition > 50;
 
       setIsNavbarFixed(shouldFixNavbar);
     };
@@ -71,13 +72,17 @@ function NavBar(props) {
 
   const navbarClassName = `custom-navbar ${isNavbarFixed ? 'fixed-navbar' : ''}`;
 
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuActive(!isMobileMenuActive);
+  };
+
   return (
     <nav className={navbarClassName}>
       <div className="logo-container">
         <img className="logo" src={'https://imgur.com/Dv5KY2h.png'} alt={'FNB LOGO'} />
         <img className="fnb" src={'https://imgur.com/Fa1q8d0.png'} alt={'FOOD NOT BOMBS'} />
       </div>
-      <ul className="nav-list">
+      <ul className={`nav-list ${isMobileMenuActive ? 'active' : ''}`}>
         <li>
           <Link to="/" className={`nav-link ${location.pathname === '/' && 'selected'}`}>HOME</Link>
         </li>
@@ -90,10 +95,11 @@ function NavBar(props) {
         <li>
           <Link to="/resources" className={`nav-link ${location.pathname === '/resources' && 'selected'}`}>RESOURCES</Link>
         </li>
-        {/* <li>
-          <Link to="/volunteer" className={`nav-link ${location.pathname === '/volunteer' && 'selected'}`}>VOLUNTEER</Link>
-        </li> */}
+        {/* Add more list items for other menu items */}
       </ul>
+      <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
+        ☰
+      </div>
       <div className="donate-container">
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
       </div>
