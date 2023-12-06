@@ -8,7 +8,7 @@ import Navbar from './components/shared/Navbar';
 import PlaceholderPage from './pages/Placeholder/PlaceholderPage'
 import About from './pages/About/About';
 import Location from './pages/Location/Location';
-import Resources from './pages/Resources/Resources';
+
 
 
 function App() {
