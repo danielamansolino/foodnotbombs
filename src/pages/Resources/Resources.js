@@ -22,6 +22,7 @@ function Resources(props){
         <h1>Resources</h1>
         <h1>Resources</h1>
         <h1>Resources</h1>
+       
         </div>
        
     );
