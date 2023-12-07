@@ -1,13 +1,17 @@
-  .footer-container {
+.footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
     background-color: #222222;
     bottom: 0;
     width: 100%;
-  }
+}
+
+.contact-item img {
+    margin-right: 8px; 
+}
   
 .join-container {
     display: flex;
@@ -87,9 +91,9 @@
   
   .additional-elements {
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    flex-wrap: wrap; /* Allow content to wrap if it exceeds the width */
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; 
     gap: 10px;
     margin-top: 10px;
   }
