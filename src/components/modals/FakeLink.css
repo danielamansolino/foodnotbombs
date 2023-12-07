@@ -42,17 +42,6 @@
     margin-bottom: 20px;
 }
 
-.cta-images {
-    display: flex;
-    justify-content: space-between;
-    width: 80%; 
-    margin-bottom: 20px;
-}
-
-.cta-images img {
-    width: 48%; /
-}
-
 
 .close-button {
     position: absolute;

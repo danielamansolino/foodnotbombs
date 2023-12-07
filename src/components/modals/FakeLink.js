@@ -14,7 +14,7 @@ return (
         <p className="modal-paragraph">
             Some links may not lead to actual pages, but feel free to explore the conceptual content.
         </p>
-        <a href="#" onClick={onClose}>
+        <a href="#" onClick={onClose} >
             <img src="https://imgur.com/0AeNAKp.png" alt="Got it, continue exploring" />
         </a>
     </div>
