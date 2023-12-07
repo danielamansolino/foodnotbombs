@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Map from '../../components/map/map'
 
 function homePage(props){
 
     return(
-        <p>Home Page!</p>
-
+        <Fragment>
+            <p>Home Page!</p>
+            <Map />
+        </Fragment>
     );
 };
 
