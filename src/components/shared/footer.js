@@ -136,8 +136,10 @@ function Footer(props) {
       <div className="footer-column">
         <h4>READY TO JOIN?</h4>
         <p>Join our community and make a difference today!</p>
-        <img src="https://imgur.com/wSSqcKI.jpg" alt="SOCIAL MEDIA" />
-        <button>Join Now</button>
+        <div className="join-container">
+          <img className='email-input' src="https://imgur.com/wSSqcKI.jpg" alt="Enter your email" />
+          <button className="subscribe-button">Subscribe</button>
+        </div>
       </div>
 
         {/* Horizontal Line */}
