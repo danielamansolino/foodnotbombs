@@ -17,7 +17,7 @@ nav {
     width: 100%;
     position: relative;
     z-index: 1;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     @media (max-width: 768px) {
         padding: 2px; /* Adjust the padding as needed */
         flex-direction: column; /* Change to column layout */

@@ -1,12 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './navbar.css';
+import './Navbar.css';
+import LeavePage from '../modals/LeavePage';
 
 function NavBar(props) {
   const location = useLocation();
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
   const [isMobileMenuActive, setIsMobileMenuActive] = useState(false);
+  const [isLeavePageModalOpen, setIsLeavePageModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +28,15 @@ function NavBar(props) {
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuActive(!isMobileMenuActive);
+  };
+
+  const handleDonateClick = (event) => {
+    event.preventDefault();
+    setIsLeavePageModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsLeavePageModalOpen(false);
   };
 
   return (
@@ -52,9 +63,10 @@ function NavBar(props) {
       <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
         ☰
       </div>
-        <a href="https://foodnotbombs.net/new_site/donate.php" target="_blank">
+        <a href="https://foodnotbombs.net/new_site/donate.php" target="_blank" onClick={handleDonateClick}>
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
         </a>
+        {isLeavePageModalOpen && <LeavePage onClose={handleCloseModal} />}
 
       {/* <div className="donate-container">
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
