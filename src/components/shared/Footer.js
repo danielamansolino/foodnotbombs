@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import FakeLink from '../modals/FakeLink';
 
 function Footer(props) {
+    const [isFakeLinkModalOpen, setIsFakeLinkModalOpen] = useState(false);
+
+    const handleFakeLinkClick = () => {
+    setIsFakeLinkModalOpen(true);
+    };
+
+    const handleCloseFakeLinkModal = () => {
+    setIsFakeLinkModalOpen(false);
+    };
   return (
     <div className="footer-container">
       {/* Column 1 - RESOURCES */}
@@ -40,7 +50,7 @@ function Footer(props) {
         <p>Join our community and make a difference today!</p>
         <div className="join-container">
           <img className='email-input' src="https://imgur.com/wSSqcKI.jpg" alt="Enter your email" />
-          <img className='subscribe' src="https://imgur.com/yUgOPpR.jpg" alt="SUBSCRIBE" /> 
+          <img className='subscribe' src="https://imgur.com/yUgOPpR.jpg" alt="SUBSCRIBE" onClick={handleFakeLinkClick} /> 
         </div>
       </div>
 
@@ -55,6 +65,8 @@ function Footer(props) {
         <p>Security</p>
         <p>Copyright</p>
       </div>
+      {/* FakeLink modal */}
+      {isFakeLinkModalOpen && <FakeLink onClose={handleCloseFakeLinkModal} />}
     </div>
   );
 }
