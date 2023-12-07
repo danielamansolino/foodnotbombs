@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.location-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 8vmin 16vmin;
+    border: 1px solid black;
+}
+
+.top-half {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vmin;
+}
+
+.text {
+    margin-right: 1vmin;
+}

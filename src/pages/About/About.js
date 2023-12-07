@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutMainVideo from '../../components/about/AboutMainVideo';
 
 function About(props){
 
     return(
-        <h1>About</h1>
+        <div>
+            <AboutMainVideo/>
+        </div>
 
     );
 };
