@@ -40,7 +40,7 @@ function Footer(props) {
         <p>Join our community and make a difference today!</p>
         <div className="join-container">
           <img className='email-input' src="https://imgur.com/wSSqcKI.jpg" alt="Enter your email" />
-          <button className="subscribe-button">Subscribe</button>
+          <img className='subscribe' src="https://imgur.com/yUgOPpR.jpg" alt="SUBSCRIBE" /> 
         </div>
       </div>
 
