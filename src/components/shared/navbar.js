@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './navbar.css';
@@ -11,7 +12,6 @@ function NavBar(props) {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const shouldFixNavbar = scrollPosition > 50;
-
       setIsNavbarFixed(shouldFixNavbar);
     };
 
