@@ -3,12 +3,12 @@ import React, { Fragment } from 'react'
 import {Route, Routes} from 'react-router-dom'
 
 import HomePage from './pages/Home/HomePage';
-import Navbar from './components/shared/Navbar';
+import Navbar from './components/shared/navbar';
 import PlaceholderPage from './pages/Placeholder/PlaceholderPage'
 import About from './pages/About/About';
 import Location from './pages/Location/Location';
 import Resources from './pages/Resources/Resources';
-import Footer from './components/shared/Footer'
+import Footer from './components/shared/footer'
 
 
 function App() {
