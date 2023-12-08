@@ -9,6 +9,7 @@ import Location from './pages/Location/Location';
 import Resources from './pages/Resources/Resources';
 import Footer from './components/shared/Footer'
 import Donation from './pages/Donation/Donation';
+import Chapter from './pages/chapter/Chapter';
 
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
         <Route 
           path="/donation" 
           element={<Donation/>} 
+          />
+        <Route 
+          path="/chapter" 
+          element={<Chapter/>} 
           />
       
       </Routes>
