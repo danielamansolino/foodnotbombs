@@ -15,7 +15,6 @@ function Footer(props) {
     };
   return (
     <div className="footer-container">
-      {/* Column 1 - RESOURCES */}
       <div className="footer-column">
         <h4>RESOURCES</h4>
         <ul>
@@ -24,8 +23,6 @@ function Footer(props) {
           <li onClick={handleFakeLinkClick}>Your Starter Kit</li>
         </ul>
       </div>
-
-      {/* Column 2 - CONTACT */}
       <div className="footer-column">
         <h4>CONTACT</h4>
         <ul>
@@ -43,8 +40,6 @@ function Footer(props) {
           </li>
         </ul>
       </div>
-
-      {/* Column 3 - READY TO JOIN */}
       <div className="footer-column">
         <h4>READY TO JOIN?</h4>
         <p>Join our community and make a difference today!</p>
@@ -53,21 +48,24 @@ function Footer(props) {
           <img className='subscribe' src="https://imgur.com/yUgOPpR.jpg" alt="SUBSCRIBE" onClick={handleFakeLinkClick} /> 
         </div>
       </div>
-
-      {/* Horizontal Line */}
       <hr className="horizontal-line" />
-
-      {/* Additional Elements (Displayed Below Columns) */}
       <div className="additional-elements">
         <p>Privacy</p>
         <p>Terms and Conditions</p>
-        <a href="https://www.facebook.com/FoodNotBombsGlobal" target="_blank" rel="noopener noreferrer">
-          <img src="https://imgur.com/N1fXSvZ.jpg" alt="SOCIAL MEDIA" />
-        </a>
+        <div className='social-media'>
+          <a href="https://www.facebook.com/FoodNotBombsGlobal" target="_blank" rel="noopener noreferrer">
+            <img src="https://imgur.com/35UIMI5.jpg" alt="Face Book" />
+          </a>
+          <a href="https://twitter.com/Food_Not_Bombs_" target="_blank" rel="noopener noreferrer">
+            <img src="https://imgur.com/eyEqTfB.jpg" alt="X" />
+          </a>
+          <a href="https://www.youtube.com/results?search_query=food+not+bombs" target="_blank" rel="noopener noreferrer">
+            <img src="https://imgur.com/oP0XSmU.jpg" alt="YouTube" />
+          </a>
+        </div>
         <p>Security</p>
         <p>Copyright</p>
       </div>
-      {/* FakeLink modal */}
       {isFakeLinkModalOpen && <FakeLink onClose={handleCloseFakeLinkModal} />}
     </div>
   );
