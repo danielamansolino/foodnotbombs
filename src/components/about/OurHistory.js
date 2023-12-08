@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './OurHistory.css'; 
+import LeavePage from '../modals/LeavePage';
 
 const OurHistory = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const handleReadMoreClick = () => {
+        setModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
     return (
         <div className="our-history-section">
       <div className="text-wrapper">Our History</div>
@@ -72,8 +82,14 @@ const OurHistory = () => {
         </div>
       </div>
       <div className="read-more-class">
-        <img className="read-more" src={'https://imgur.com/Ai37QYH.png'} alt={'READ MORE'} />
+        <img 
+            className="read-more" 
+            src={'https://imgur.com/Ai37QYH.png'} 
+            alt={'READ MORE'} 
+            onClick={handleReadMoreClick}
+            />
       </div>
+      {isModalOpen && <LeavePage onClose={handleCloseModal} />}
     </div>
     );
 };
