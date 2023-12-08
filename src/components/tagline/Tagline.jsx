@@ -4,6 +4,7 @@ import './tagline.css'
 import Stats from './stats/Stats'
 import StatsParagraph from './statsParagraph/StatsParagraph'
 
+
 function Tagline() {
   return (
     <>
@@ -13,10 +14,10 @@ function Tagline() {
       </div>
       <div className='buttonContainer'>
             <div className='buttons'>
-              <Link className='noTextDec' to='#'><div className='button button1'>Find your local chapter</div></Link>
+              <Link className='noTextDec' to='/location'><div className='button button1'>Find your local chapter</div></Link>
             </div>
             <div className='buttons'>
-              <Link className='noTextDec'to='#'><div className='button button2'> Start a local chapter</div></Link>
+              <Link className='noTextDec'to='/chapter'><div className='button button2'> Start a local chapter</div></Link>
             </div>
       </div>
     </div>
