@@ -3,7 +3,7 @@ import './resourcesSecondRow.css'
 
 function ResourcesSecondRow() {
   return (
-<div>
+<div className='resourcesAllContent'>
 <h2 className='resourcesHeaderSecond'>Resources</h2>
     <div className='resourcesContainerSecond'>
 

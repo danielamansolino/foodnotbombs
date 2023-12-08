@@ -1,5 +1,6 @@
 import React from 'react'
 import './resources.css'
+import ResourcesButton from './ResourcesButton'
 
 function Resources() {
   return (
@@ -39,6 +40,9 @@ function Resources() {
             <div><h4 className='imgLabel'>VIDEOS</h4></div>
             <div className='descriptionCon'><h4 className='description'>Essential reading for a world free of rulers, repression, and corporate domination.  </h4></div>
         </div>
+    </div>
+    <div className='resourceButtonContainer'>
+    <ResourcesButton/>
     </div>
 </div>    
   )

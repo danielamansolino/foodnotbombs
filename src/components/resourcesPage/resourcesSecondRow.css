@@ -9,6 +9,10 @@
     margin-bottom: 5vh;
 
 }
+.resourcesAllContent{
+    margin-bottom: 20.7vh;
+}
+
 .resourceBoxSecond{
     display:flex;
     flex-direction: column;
@@ -69,7 +73,7 @@
     color: var(--Stroke-Black, #090A0C);
     /* h2 */
     text-align: center;
-    margin-bottom:0;
+    margin-bottom:3vh;
     font-family: Exo 2;
     font-size: 48px;
     font-style: normal;
