@@ -19,9 +19,9 @@ function Footer(props) {
       <div className="footer-column">
         <h4>RESOURCES</h4>
         <ul>
-          <li>Start a Local Chapter</li>
-          <li>Find Your Local Chapter</li>
-          <li>Your Starter Kit</li>
+          <li onClick={handleFakeLinkClick}>Start a Local Chapter</li>
+          <li onClick={handleFakeLinkClick}>Find Your Local Chapter</li>
+          <li onClick={handleFakeLinkClick}>Your Starter Kit</li>
         </ul>
       </div>
 
@@ -61,7 +61,9 @@ function Footer(props) {
       <div className="additional-elements">
         <p>Privacy</p>
         <p>Terms and Conditions</p>
-        <img src="https://imgur.com/N1fXSvZ.jpg" alt="SOCIAL MEDIA" />
+        <a href="https://www.facebook.com/FoodNotBombsGlobal" target="_blank" rel="noopener noreferrer">
+          <img src="https://imgur.com/N1fXSvZ.jpg" alt="SOCIAL MEDIA" />
+        </a>
         <p>Security</p>
         <p>Copyright</p>
       </div>
