@@ -10,7 +10,7 @@ function homePage(props){
         <Fragment>
             <Tagline />
             <div className='page-info'>
-                <Map />
+                <Map width='1280' height='900' />
                 <Resource />
             </div>
         </Fragment>
