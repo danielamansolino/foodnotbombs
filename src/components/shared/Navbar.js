@@ -69,9 +69,9 @@ function NavBar(props) {
       <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
         ☰
       </div>
-      <a href="/donation" >
+      <Link to="/donation" className={`nav-link ${location.pathname === '/donation' && 'selected'}`}>
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
-      </a>
+      </Link>
       {isLeavePageModalOpen && <LeavePage onClose={handleCloseModal} />}
 
       {/* <div className="donate-container">
