@@ -3,9 +3,7 @@ import "./Videos.css";
 
 const Videos = () => {
   return (
-    <div className="videos-container">
-    
-    </div>
+    <div className="videos-container"></div>
   );
 };
 
