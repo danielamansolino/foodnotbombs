@@ -46,7 +46,9 @@ function NavBar(props) {
           <img className="logo" src={'https://imgur.com/Dv5KY2h.png'} alt={'FNB LOGO'} />
         </Link>
         <Link to='/'>
-          <img className="fnb" src={'https://imgur.com/Fa1q8d0.png'} alt={'FOOD NOT BOMBS'} />
+        <a href="https://foodnotbombs.net/new_site/donate.php" target="_blank" onClick={handleDonateClick}>
+        <img className="fnb" src={'https://imgur.com/Fa1q8d0.png'} alt={'FOOD NOT BOMBS'} />
+        </a> 
         </Link>
       </div>
       <ul className={`nav-list ${isMobileMenuActive ? 'active' : ''}`}>
@@ -67,7 +69,7 @@ function NavBar(props) {
       <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
         ☰
       </div>
-      <a href="https://foodnotbombs.net/new_site/donate.php" target="_blank" onClick={handleDonateClick}>
+      <a href="/donation" >
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
       </a>
       {isLeavePageModalOpen && <LeavePage onClose={handleCloseModal} />}
