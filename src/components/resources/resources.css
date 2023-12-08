@@ -2,22 +2,20 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left:5vw;
-    width: 90vw;
+    width: 88vw;
     height: 60vh;
     flex-shrink: 0;
     margin-top: 3vh;
+
 }
 .resourceBox{
     display:flex;
     flex-direction: column;
     width: 25vw;
     height: 40vh;
-    flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid var(--Anarchy-Yellow, #FFD600);
     box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    justify-content: center;
     align-items: center;
 }
 
@@ -28,7 +26,8 @@
 
 .imgContainer{
     height:auto;
-    width:25%;
+    width:100vw;
+    border:2px solid purple;
 }
 
 .imgLabel{
@@ -68,7 +67,7 @@
 .resourcesHeader{
     color: var(--Stroke-Black, #090A0C);
     /* h2 */
-    margin-left:5vw;
+
     margin-bottom:0;
     font-family: Exo 2;
     font-size: 48px;

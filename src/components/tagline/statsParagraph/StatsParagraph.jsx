@@ -3,7 +3,7 @@ import './statsParagraph.css'
 
 function StatsParagraph() {
   return (
-    <div className='textContainer'>
+    <div>
 
         <h2 className='largeText'>When a billion people go hungry each day,<br></br>
 

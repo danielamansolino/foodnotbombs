@@ -2,47 +2,51 @@
     font-size: 72px;
 }
 
+*{
+    font-family: exo 2;
+}
+
 .background{
     background-image: url('taglineImages/taglineDarkFNB.jpg');
-    /* margin-bottom:70vh; */
-    padding-top: 15vh;
-    padding-bottom: 44vh;
+    padding-top: 12vh;
+    padding-bottom: 52vh;
     background-position-y: 80%;
     height: 1vh;
     background-repeat: no-repeat;
     background-size: 100%;
     background-size:cover;
+
     
 }
 
 .tagText{
     text-align: center;
     font-size:2.1vw;
-    font-family:helvetica ;
+
 }
 
 .tagSpan{
     color:white;
-    font-family:helvetica ;
+
 }
 
 .buttonContainer{
-    display: flex;
+    display:flex;
+    flex-direction: row;
     justify-content: center;
-    margin-right: 1vw;
-    margin-bottom: 50vh;
 }
 
 .buttons{
-    margin-top: 1em;
-    
+
+    margin-top: 2vh;
+ 
 }
 
 .button{
     
     border-radius: 6px;
     font-size: 1.5vw;
-    padding:1.25vw 4vw;
+    padding:1vw 2vw;
     background-color: #FFD600;
     margin-right: 1vw;
 }
@@ -64,5 +68,20 @@
 }
 
 .contentContainer{
-    padding-top: 2vh;
+display:flex;
+justify-content: center;
+text-align: center;
+}
+
+.tagContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.statsContainer{
+    border:1px solid purple;
+    display: flex;
+    justify-content: center;
+    
 }

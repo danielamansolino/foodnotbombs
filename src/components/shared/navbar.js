@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Navbar.css';
+import './navbar.css';
 import LeavePage from '../modals/LeavePage';
 
 function NavBar(props) {
