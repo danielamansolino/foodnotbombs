@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Map from '../../components/map/map'
 import './Location.css'
+import LeavePage from '../../components/modals/LeavePage'
 
 function Location(props){
+    const [isLeavePageModalOpen, setIsLeavePageModalOpen] = useState(false);
+
+    const handleClick = (event) => {
+        event.preventDefault();
+        setIsLeavePageModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setIsLeavePageModalOpen(false);
+    };
 
     return(
         <div className='location-page'>
@@ -18,11 +29,12 @@ function Location(props){
             <div className="start-one">
                 <h2>Don't have a local chapter?</h2>
                 <div className="link-container">
-                    <Link to='#' className='start-link'>
+                    <Link to='#' className='start-link' onClick={handleClick}>
                         Start one!
                     </Link>
                 </div>
             </div>
+            {isLeavePageModalOpen && <LeavePage onClose={handleCloseModal} />}
         </div>
     );
 };

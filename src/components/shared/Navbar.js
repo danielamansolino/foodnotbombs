@@ -42,8 +42,12 @@ function NavBar(props) {
   return (
     <nav className={navbarClassName}>
       <div className="logo-container">
-        <img className="logo" src={'https://imgur.com/Dv5KY2h.png'} alt={'FNB LOGO'} />
-        <img className="fnb" src={'https://imgur.com/Fa1q8d0.png'} alt={'FOOD NOT BOMBS'} />
+        <Link to='/'>
+          <img className="logo" src={'https://imgur.com/Dv5KY2h.png'} alt={'FNB LOGO'} />
+        </Link>
+        <Link to='/'>
+          <img className="fnb" src={'https://imgur.com/Fa1q8d0.png'} alt={'FOOD NOT BOMBS'} />
+        </Link>
       </div>
       <ul className={`nav-list ${isMobileMenuActive ? 'active' : ''}`}>
         <li>
@@ -63,10 +67,10 @@ function NavBar(props) {
       <div className="mobile-menu-icon" onClick={handleMobileMenuToggle}>
         ☰
       </div>
-        <a href="https://foodnotbombs.net/new_site/donate.php" target="_blank" onClick={handleDonateClick}>
+      <a href="https://foodnotbombs.net/new_site/donate.php" target="_blank" onClick={handleDonateClick}>
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
-        </a>
-        {isLeavePageModalOpen && <LeavePage onClose={handleCloseModal} />}
+      </a>
+      {isLeavePageModalOpen && <LeavePage onClose={handleCloseModal} />}
 
       {/* <div className="donate-container">
         <img className="donate" src={'https://imgur.com/4OrYh2K.png'} alt={'DONATE'} />
