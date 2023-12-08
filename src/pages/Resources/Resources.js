@@ -9,7 +9,6 @@ function Resources(props){
         <div>
             <ResourcesIntro />
         <div>
-            <Resource />
             <ResourcesSecondRow />
         </div>
         </div>
