@@ -1,0 +1,39 @@
+.read-more-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+
+}
+
+.resourceButtonStyle{
+color: var(--Stroke-Black, #090A0C);
+text-align: center;
+/* h4 bold */
+font-family: Exo 2;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+border-radius: 10px;
+background: var(--Anarchy-Yellow, #FFD600);
+/* drop shadow */
+box-shadow: 0px 4px 4px 0px rgba(9, 10, 12, 0.25);
+display: flex;
+width: 358px;
+height: 76px;
+min-width: 269px;
+max-width: 358px;
+padding: 26px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+.resourceButtonContainer{
+    display: flex;
+    justify-content: center;
+}

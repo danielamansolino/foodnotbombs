@@ -7,7 +7,7 @@ import './HomePage.css'
 function homePage(props){
 
     return(
-        <Fragment>
+        <Fragment className='homeBackground'>
             <Tagline />
             <div className='page-info'>
                 <Map width='1280' height='900' />
