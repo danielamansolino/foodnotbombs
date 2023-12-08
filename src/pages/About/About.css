@@ -1,0 +1,12 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    flex-shrink: 0;
+
+}
+
+.about-container > *:not(:last-child) {
+    margin-bottom: 80px;
+}
+
