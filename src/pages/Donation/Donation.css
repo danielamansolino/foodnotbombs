@@ -1,0 +1,13 @@
+.donation-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 40px;
+    flex-shrink: 0;
+
+
+}
+
+.donation-container {
+    margin-bottom: 80px;
+}
