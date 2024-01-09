@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.body{
+    background-color: #F7F6F0;
+}
+
+.page-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vmin 10vmin;
+}
+

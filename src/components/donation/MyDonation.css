@@ -1,0 +1,114 @@
+.my-donation-container {
+    font-family: 'Exo 2';
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+.text-wrapper {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 80px; 
+    align-self:flex-start;
+}
+  
+.donation-cards-container {
+    width: 1184px;
+    height: 702px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: center;
+}
+  
+.donation-card {
+    position: relative;
+    width: 584px;
+    height: 343px;  
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(9, 10, 12, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.donation-card:nth-child(odd) {
+    background: #ffed8c;
+}
+  
+.donation-card:nth-child(even) {
+    background: #ffe458;
+}
+  
+.donation-card:nth-child(3n) {
+    background: #ffde30;
+}
+  
+.donation-card:nth-child(4n) {
+    background: #ffd600;
+}
+
+
+.donation-card > div {
+    margin-bottom: 10px;
+}
+  
+
+
+.donation-card > div:first-child {
+    color: #090a0c;
+    font-size: 32px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word;
+    position: relative;
+}
+  
+
+.donation-card > div:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: -10px; 
+    left: 0;
+    width: 317px; 
+    height: 10px;
+    background-color: #090a0c;
+}
+  
+.donation-card > div:nth-child(2) {
+    font-family: Exo 2;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+}
+  
+.donation-card > div:last-child {
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+  
+
+.donation-card::after {
+    content: '';
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    width: 102px; 
+    height: 16px; 
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="102" height="16" viewBox="0 0 102 16" fill="none"><path d="M101.207 8.70711C101.598 8.31658 101.598 7.68342 101.207 7.29289L94.8431 0.928932C94.4526 0.538408 93.8195 0.538408 93.4289 0.928932C93.0384 1.31946 93.0384 1.95262 93.4289 2.34315L99.0858 8L93.4289 13.6569C93.0384 14.0474 93.0384 14.6805 93.4289 15.0711C93.8195 15.4616 94.4526 15.4616 94.8431 15.0711L101.207 8.70711ZM0.5 9H100.5V7H0.5V9Z" fill="%23090A0C"/></svg>') no-repeat;
+}
+  
+ 
+.donation-card > div:first-child {
+    position: relative;
+    margin-bottom: 20px;
+}
+  

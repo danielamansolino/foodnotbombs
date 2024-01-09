@@ -5,9 +5,101 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-cream);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --anarchy-yellow: rgba(255, 214, 0, 1);
+  --background-cream: rgba(247, 246, 240, 1);
+  --bright-white: rgba(255, 255, 255, 1);
+  --carrot-orange: rgba(244, 120, 33, 1);
+  --drop-shadow: 0px 4px 4px 0px rgba(9, 10, 12, 0.25);
+  --fill-black: rgba(34, 34, 34, 1);
+  --h-1-font-family: "Exo2-Bold", Helvetica;
+  --h-1-font-size: 64px;
+  --h-1-font-style: normal;
+  --h-1-font-weight: 700;
+  --h-1-letter-spacing: 0px;
+  --h-1-line-height: normal;
+  --h-2-font-family: "Exo2-SemiBold", Helvetica;
+  --h-2-font-size: 48px;
+  --h-2-font-style: normal;
+  --h-2-font-weight: 600;
+  --h-2-letter-spacing: 0px;
+  --h-2-line-height: 114.99999761581421%;
+  --h-3-font-family: "Exo2-Regular", Helvetica;
+  --h-3-font-size: 32px;
+  --h-3-font-style: normal;
+  --h-3-font-weight: 400;
+  --h-3-letter-spacing: 0px;
+  --h-3-line-height: 48px;
+  --h-4-font-family: "Exo2-Light", Helvetica;
+  --h-4-font-size: 24px;
+  --h-4-font-style: normal;
+  --h-4-font-weight: 300;
+  --h-4-letter-spacing: 0px;
+  --h-4-line-height: 28px;
+  --h-6-font-family: "Exo2-ExtraLight", Helvetica;
+  --h-6-font-size: 16px;
+  --h-6-font-style: normal;
+  --h-6-font-weight: 200;
+  --h-6-letter-spacing: 0px;
+  --h-6-line-height: normal;
+  --h3-bold-font-family: "Exo2-SemiBold", Helvetica;
+  --h3-bold-font-size: 32px;
+  --h3-bold-font-style: normal;
+  --h3-bold-font-weight: 600;
+  --h3-bold-letter-spacing: 0px;
+  --h3-bold-line-height: 48px;
+  --h4-bold-font-family: "Exo2-SemiBold", Helvetica;
+  --h4-bold-font-size: 24px;
+  --h4-bold-font-style: normal;
+  --h4-bold-font-weight: 600;
+  --h4-bold-letter-spacing: 0px;
+  --h4-bold-line-height: 24px;
+  --h5-all-caps-bold-font-family: "Exo2-Bold", Helvetica;
+  --h5-all-caps-bold-font-size: 16px;
+  --h5-all-caps-bold-font-style: normal;
+  --h5-all-caps-bold-font-weight: 700;
+  --h5-all-caps-bold-letter-spacing: 0px;
+  --h5-all-caps-bold-line-height: 24px;
+  --h5-all-caps-font-family: "Exo2-Regular", Helvetica;
+  --h5-all-caps-font-size: 16px;
+  --h5-all-caps-font-style: normal;
+  --h5-all-caps-font-weight: 400;
+  --h5-all-caps-letter-spacing: 0px;
+  --h5-all-caps-line-height: 24px;
+  --h5-normal-case-font-family: "Exo2-Regular", Helvetica;
+  --h5-normal-case-font-size: 16px;
+  --h5-normal-case-font-style: normal;
+  --h5-normal-case-font-weight: 400;
+  --h5-normal-case-letter-spacing: 0px;
+  --h5-normal-case-line-height: 24px;
+  --nav-selected-font-family: "Exo2-Bold", Helvetica;
+  --nav-selected-font-size: 16px;
+  --nav-selected-font-style: normal;
+  --nav-selected-font-weight: 700;
+  --nav-selected-letter-spacing: 0px;
+  --nav-selected-line-height: 24px;
+  --nav-unselected-font-family: "Exo2-Regular", Helvetica;
+  --nav-unselected-font-size: 16px;
+  --nav-unselected-font-style: normal;
+  --nav-unselected-font-weight: 400;
+  --nav-unselected-letter-spacing: 0px;
+  --nav-unselected-line-height: 24px;
+  --neutral-gray: rgba(153, 153, 153, 1);
+  --plentiful-green: rgba(63, 180, 74, 1);
+  --solidarity-purple: rgba(186, 82, 159, 1);
+  --stroke-black: rgba(9, 10, 12, 1);
+  --yellow-shadesyellow-shade-1: rgba(255, 237, 140, 1);
+  --yellow-shadesyellow-shade-2: rgba(255, 228, 88, 1);
+  --yellow-shadesyellow-shade-3: rgba(255, 222, 48, 1);
+  --yellow-shadesyellow-shade-4: rgba(204, 171, 0, 1);
+}
+
+

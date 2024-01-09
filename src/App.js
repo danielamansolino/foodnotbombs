@@ -3,12 +3,13 @@ import React, { Fragment } from 'react'
 import {Route, Routes} from 'react-router-dom'
 
 import HomePage from './pages/Home/HomePage';
-import Navbar from './components/shared/navbar';
-import PlaceholderPage from './pages/Placeholder/PlaceholderPage'
+import Navbar from './components/shared/Navbar';
 import About from './pages/About/About';
 import Location from './pages/Location/Location';
 import Resources from './pages/Resources/Resources';
-import Footer from './components/shared/footer'
+import Footer from './components/shared/Footer'
+import Donation from './pages/Donation/Donation';
+import Chapter from './pages/chapter/Chapter';
 
 
 function App() {
@@ -34,9 +35,13 @@ function App() {
           element={<Resources/>}
         />
         <Route 
-          path='/donate'
-          element={<PlaceholderPage pageName='Donate' />}
-        />
+          path="/donation" 
+          element={<Donation/>} 
+          />
+        <Route 
+          path="/chapter" 
+          element={<Chapter/>} 
+          />
       
       </Routes>
       <Footer /> 
